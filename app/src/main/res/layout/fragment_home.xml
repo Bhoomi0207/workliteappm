@@ -45,6 +45,7 @@
         android:layout_marginTop="7dp">
         <!-- Calendar icon -->
         <ImageView
+            android:id="@+id/calender"
             android:layout_width="33dp"
             android:layout_height="34dp"
             android:src="@drawable/ca"

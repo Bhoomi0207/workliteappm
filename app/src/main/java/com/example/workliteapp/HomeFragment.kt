@@ -79,6 +79,10 @@ class HomeFragment : Fragment() {
 
 
         }
+        binding.calender.setOnClickListener {
+            val intent= Intent(context,CalendarActivity::class.java)
+            startActivity(intent)
+        }
 
 
 
