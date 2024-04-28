@@ -20,6 +20,12 @@ class ComplaintActivity : AppCompatActivity() {
         binding.submitButton.setOnClickListener {
             validateData()
         }
+        binding.imageView10.setOnClickListener {
+            Toast.makeText(this,"Satisfied!!",Toast.LENGTH_SHORT).show()
+        }
+        binding.imageView11.setOnClickListener {
+            Toast.makeText(this,"Dissatisfied!!",Toast.LENGTH_SHORT).show()
+        }
     }
 
 
