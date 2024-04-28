@@ -1,0 +1,20 @@
+<!-- rounded_shadow.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow -->
+    <item android:top="4px" android:left="0px">
+        <shape>
+            <solid android:color="#44000000" />
+            <corners android:radius="29px" />
+        </shape>
+    </item>
+
+    <!-- Rounded rectangle background -->
+    <item android:top="0px" android:left="0px">
+        <shape>
+            <solid android:color="#C1D2D0" />
+            <corners android:radius="29px" />
+        </shape>
+    </item>
+
+</layer-list>

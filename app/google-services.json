@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "637657344573",
+    "firebase_url": "https://worklite-app-eeeb5-default-rtdb.firebaseio.com",
+    "project_id": "worklite-app-eeeb5",
+    "storage_bucket": "worklite-app-eeeb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637657344573:android:490ea759fb53bb2e87d854",
+        "android_client_info": {
+          "package_name": "com.example.workliteadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH28-VeMf7YAX9ByTUnXmEhie_nmt2RRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637657344573:android:f88822757fedadad87d854",
+        "android_client_info": {
+          "package_name": "com.example.workliteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH28-VeMf7YAX9ByTUnXmEhie_nmt2RRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<!-- res/drawable/custom_background.xml -->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background with linear gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:startColor="#FFF4CC"
+                android:endColor="#FFE790" />
+        </shape>
+    </item>
+
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="1px"
+                android:color="#000000" />
+        </shape>
+    </item>
+
+</layer-list>

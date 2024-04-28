@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellowbg"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+      <!-- <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <soup.neumorphism.NeumorphTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Online Services"
+                android:layout_centerInParent="true"
+                />
+            <soup.neumorphism.NeumorphCardView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+
+                />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="3"
+            android:columnCount="2"
+
+            >
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/chef"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chef\n(बावर्ची)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/sweep"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sweeper\n(झाड़ू देनेवाला)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/nany"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nanny\n(आया)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/washerman"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Laundry\n(धोबी)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/gardener"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Gardener(माली)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:id="@+id/cardview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/householdchores"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Household\n(घर का काम)"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/householdchores"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Household"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:neumorph_shadowColorDark="#FF9800"
+                app:neumorph_shadowColorLight="#FF9800"
+                app:neumorph_shadowElevation="6dp"
+                android:layout_marginTop="12dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="16dp"
+                    android:orientation="vertical"
+                    >
+                    <soup.neumorphism.NeumorphImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/householdchores"
+                        />
+                    <soup.neumorphism.NeumorphTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Household"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+
+                        />
+
+                </LinearLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+

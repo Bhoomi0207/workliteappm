@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellowbg"
+    tools:context=".Login.otpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="456dp"
+        android:layout_height="139dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/swangat" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/works" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="174dp"
+        android:text="Enter the otp"
+        android:textColor="@color/red"
+        android:textSize="30sp"
+        android:fontFamily="@font/montaga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/linerLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#BD9B72"
+        android:orientation="vertical"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/otpEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_text_bg"
+                android:elevation="8dp"
+                android:fontFamily="@font/montaga"
+                android:hint="otp"
+                android:inputType="text"
+                android:paddingStart="8dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="16dp"
+                android:textColor="@color/black"
+                android:textColorHint="#72000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="VisualLintTextFieldSize"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:orientation="horizontal">
+
+
+               <!-- <EditText
+                    android:id="@+id/editTextNumber"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+
+
+                    android:inputType="number"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextNumber2"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+
+                    android:inputType="number"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextNumber3"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+
+                    android:inputType="number"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextNumber4"
+                    android:layout_width="80dp"
+                    android:layout_height="17dp"
+
+                    android:inputType="number"
+                    android:textColor="@color/white"
+                    tools:ignore="TouchTargetSizeCheck" />-->
+
+
+
+                <!--<com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/phoneEditText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+
+                    android:layout_marginEnd="32dp"
+                    android:background="@drawable/edit_text_bg"
+
+                    android:elevation="8dp"
+                    android:fontFamily="@font/montaga"
+
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#72000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/phoneEditText2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/edit_text_bg"
+
+                    android:elevation="8dp"
+                    android:fontFamily="@font/montaga"
+
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#72000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/phoneEditText3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/edit_text_bg"
+
+                    android:elevation="8dp"
+                    android:fontFamily="@font/montaga"
+
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#72000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/phoneEditText4"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+
+                    android:layout_marginEnd="12dp"
+                    android:background="@drawable/edit_text_bg"
+
+                    android:elevation="8dp"
+                    android:fontFamily="@font/montaga"
+
+                    android:inputType="number"
+                    android:paddingStart="8dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="#72000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="VisualLintTextFieldSize" />-->
+
+
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/montaga"
+                android:text="Please enter OTP we sent on your number as SMS"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/resendBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Resend OTP"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="26dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/gradient_button"
+                android:elevation="12dp"
+                android:fontFamily="@font/montaga"
+                android:id="@+id/loginButton"
+
+
+                android:text="Login" />
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
