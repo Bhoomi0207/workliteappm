@@ -1,6 +1,7 @@
 package com.example.workliteapp
 
 import android.graphics.Color
+import android.graphics.Paint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -8,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.CalendarView
 import android.widget.GridLayout
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -50,5 +52,8 @@ class CalendarActivity : AppCompatActivity() {
             nextMonthDate.add(Calendar.MONTH, 1) // Move to next month
             calendarView.setDate(nextMonthDate.timeInMillis, true, true)
         }
+
+
+
     }
 }
